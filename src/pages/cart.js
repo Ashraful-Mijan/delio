@@ -68,7 +68,9 @@ const cart = () => {
                 className="flex justify-center"
                 onClick={() => dispatch(removeFromCart(product._id))}
               >
-                <p className="text-md mb-5">remove</p>
+                <p className="text-md mb-5 text-[#ee4c48] cursor-pointer">
+                  remove
+                </p>
               </div>
               <h4 className="text-xl">Rs. {product.price}</h4>
             </div>
