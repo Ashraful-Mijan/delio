@@ -1,4 +1,3 @@
-import Eye from "@/icons/eye";
 import React from "react";
 import Container from "../Container";
 import db from "../../../DB/db.json";
